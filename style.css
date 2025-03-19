@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #003366; /* MITEC Blue */
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0055a5;
+}
