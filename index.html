@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>MITEC Attendance</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="mitec-new-logo.png" alt="MITEC Logo" class="logo">
+</header>
+    <h1>Casual MITEC</h1>
+
+    <h3>Scan Employee ID</h3>
+    <div id="qr-reader" style="width: 300px;"></div>
+    <input type="text" id="employeeId" placeholder="Or enter manually">
+
+    <h3>Name</h3>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <button id="submitBtn">Submit Attendance</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
